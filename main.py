@@ -54,3 +54,6 @@ article_tag = soup.find(name="a", class_="titlelink")
 article_upvote = soup.find(name="span", class_="score")
 print(article_tag.getText())
 print(article_upvote.getText())
+
+# ---------------- LEGALITY ------------------ #
+# Go to "domainname/robots.txt" to see webscraping legality for that website
